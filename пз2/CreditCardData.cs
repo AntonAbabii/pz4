@@ -10,7 +10,7 @@ namespace ATM_System
     public class CreditCardData
     {
         public string Parol { get; set; } = "1234"; // Заранее заданный PIN-код
-        public string ClientAttributes { get; set; } = "Иван Иванов, Карта: *4589";
+        public string ClientAttributes { get; set; } = "Иван Иванов, Карта: *5889";
         public decimal LimitOfMoney { get; set; } = 15000.00m; // Доступный лимит
     }
 }
